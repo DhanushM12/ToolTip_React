@@ -1,5 +1,5 @@
 import React from "react";
-
+import ToolTip from "./ToolTip";
 class App extends React.Component {
   constructor() {
     super(); //calling the super constructor that is React.Component
