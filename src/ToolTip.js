@@ -20,8 +20,8 @@ class ToolTip extends React.Component {
       <div className="container">
         <button
           className="btn"
-          onMouseOver={this.handleDialog}
-          onMouseOut={this.handleDialog}
+          onMouseOver={this.handleDialogBox}
+          onMouseOut={this.handleDialogBox}
         >
           Click Me
         </button>
