@@ -22,7 +22,7 @@ class App extends React.Component {
         <input
           type="text"
           value={this.state.value}
-          onInput={this.handleInput}
+          onChange={this.handleInput}
         />
         <ToolTip pos={this.state.input} />
       </div>
