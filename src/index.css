@@ -12,3 +12,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.App {
+  text-align: center;
+}
+
+.btn {
+  position: relative;
+  margin-top: 10rem;
+  height: 40px;
+  width: 150px;
+  background-color: #f6789f;
+}
+
+.btn:hover {
+  position: relative;
+  margin-top: 10rem;
+  height: 50px;
+  width: 200px;
+  background-color: #f678ff;
+}

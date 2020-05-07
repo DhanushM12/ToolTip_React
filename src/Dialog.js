@@ -21,8 +21,10 @@ class Dialog extends React.Component {
   render() {
     return (
       <div className={this.actionClass(this.props.position)}>
-        Just for fun!!
+        Stay Safe, Take Care
       </div>
     );
   }
 }
+
+export default Dialog;
